@@ -55,9 +55,9 @@ cc_library {
         "libbinder",
         "liblog",
         "libutils",
-        "binder_b2g_connectivity_interface-cpp",
-        "binder_b2g_system_interface-cpp",
-        "binder_b2g_telephony_interface-cpp",
+        "binder_b2g_connectivity_interface-V1-cpp",
+        "binder_b2g_system_interface-V1-cpp",
+        "binder_b2g_telephony_interface-V1-cpp",
     ],
 
     header_libs: ["binder_b2g_stub_headers"],

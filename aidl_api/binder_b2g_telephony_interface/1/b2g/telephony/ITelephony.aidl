@@ -51,5 +51,6 @@ interface ITelephony {
   const int NETWORK_TYPE_IWLAN = 18;
   const int NETWORK_TYPE_LTE_CA = 19;
   const int NETWORK_TYPE_NR = 20;
+  /* {@hide} */
   const int MAX_NETWORK_TYPE = 21;
 }

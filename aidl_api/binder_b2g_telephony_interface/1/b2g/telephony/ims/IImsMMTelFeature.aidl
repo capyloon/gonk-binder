@@ -22,8 +22,8 @@ interface IImsMMTelFeature {
   const int CAPABILITY_TYPE_VIDEO = 2;
   const int CAPABILITY_TYPE_UT = 4;
   const int CAPABILITY_TYPE_SMS = 8;
-  const String FORMAT_3GPP = "3gpp";
-  const String FORMAT_3GPP2 = "3gpp2";
+  const @utf8InCpp String FORMAT_3GPP = "3gpp";
+  const @utf8InCpp String FORMAT_3GPP2 = "3gpp2";
   const int DELIVER_STATUS_OK = 1;
   const int DELIVER_STATUS_ERROR_GENERIC = 2;
   const int DELIVER_STATUS_ERROR_NO_MEMORY = 3;

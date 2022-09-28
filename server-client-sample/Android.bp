@@ -31,7 +31,7 @@ cc_binary {
         "binder_b2g_stub",
 //TODO: REWRITE_BY_YOURSELF
 // Include the library you need.
-        "binder_b2g_connectivity_interface-cpp",
+        "binder_b2g_connectivity_interface-V1-cpp",
     ],
     srcs: [
 // Generic sample code, copy this folder & recreate your own one.

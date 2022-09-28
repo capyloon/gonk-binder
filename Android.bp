@@ -21,7 +21,6 @@ aidl_interface {
         "binder/b2g/connectivity/IWifiStateListener.aidl",
         "binder/b2g/connectivity/TetheringStatusParcel.aidl",
     ],
-    api_dir: "aidl/b2g-connectivity",
     backend: {
         cpp: {
             enabled: true,
@@ -45,7 +44,6 @@ aidl_interface {
         "binder/b2g/system/ISystem.aidl",
         "binder/b2g/system/ISystemEventListener.aidl",
     ],
-    api_dir: "aidl/b2g-system",
     backend: {
         cpp: {
             enabled: true,
@@ -105,7 +103,6 @@ aidl_interface {
         "binder/b2g/telephony/ims/ImsStreamMediaProfileParcelable.aidl",
         "binder/b2g/telephony/ims/ImsSuppServiceNotificationParcelable.aidl",
     ],
-    api_dir: "aidl/b2g-telephony",
     backend: {
         cpp: {
             enabled: true,
@@ -129,7 +126,6 @@ aidl_interface {
         "binder/b2g/remotesimunlock/IRSURequestListener.aidl",
         "binder/b2g/remotesimunlock/IRSUService.aidl",
     ],
-    api_dir: "aidl/b2g-remotesimunlock",
     backend: {
         cpp: {
             enabled: true,
